@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  backgroundToggle: boolean = true
+  now: Date = new Date()
 
 }
