@@ -18,5 +18,10 @@ export class AppComponent {
     { title: 'I\'am learning angular', text: 'Almost there, right on my way', id: 2 },
   ]
 
+  updatePosts(post: Post) {
+    this.posts.unshift(post)
+    // console.log('Post', post);
+
+  }
 
 }
